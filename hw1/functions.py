@@ -8,5 +8,3 @@ def showCredits():
         print("<option>"+x+"<option>")
 
 showCredits()
-showCredits()
-showCredits()
