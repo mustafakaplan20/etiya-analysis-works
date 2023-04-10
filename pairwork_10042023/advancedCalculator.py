@@ -10,15 +10,15 @@ def divide(firstNum: float, secondNum: float):
   else:
     print("Divider cannot be 0, please check!")
 
-def calculator(firstNum:float,secondNum:float,operator:str):
+def calculator(fNum:float,secNum:float,operator:str):
   if operator== "+":
-    sum(firstNum=firstNum,secondNum=secondNum)
+    sum(firstNum=fNum,secondNum=secNum)
   elif operator == "-":
-    substract(firstNum=firstNum, secondNum=secondNum)
+    substract(firstNum=fNum, secondNum=secNum)
   elif operator == "*":
-    multiplication(firstNum=firstNum, secondNum=secondNum)
+    multiplication(firstNum=fNum, secondNum=secNum)
   elif operator == "/":
-    divide(firstNum=firstNum,secondNum=secondNum)
+    divide(firstNum=fNum,secondNum=secNum)
   else:
     print("Please choose a valid operator!")
 
@@ -27,7 +27,7 @@ while True:
   firstNum= float(input("Enter your 1st number: "))
   operator = input("Choose your operation as ( +,-,*, /) :")
   secondNum= float(input("Enter your 2nd number: "))
-  calculator(firstNum=firstNum,secondNum=secondNum,operator=operator)
+  calculator(fNum=firstNum,secNum=secondNum,operator=operator)
   isContinue=input("Do you want to continue?(y/n)")
   if(isContinue!="y"):
     print("\nOperation terminated!")
