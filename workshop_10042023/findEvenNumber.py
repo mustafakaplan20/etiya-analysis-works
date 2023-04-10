@@ -10,7 +10,7 @@ findEvenNumber(maxLimit)
 print("\n")
 
 def developedEvenNumber(lowerLimit: int, upperLimit:int):
-  for i in range(altLimit,maxLimit):
+  for i in range(lowerLimit,upperLimit):
     if i % 2 == 0:
       print(i, end=" ")
 
