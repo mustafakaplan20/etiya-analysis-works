@@ -30,7 +30,7 @@ def showStudentList():
             print(f"{index}-> {Student.showInfo(student)} ")
     print("\n")
 
-    # print(f"Öğrenciler  : {studentList}") It is also solution moreover we can use __str__ function
+    # print(f"Student  : {studentList}") It is also solution moreover we can use __str__ function
 
 def staticOperation():
     teacher_1 = Teacher("Ali", "VELI", "CSE")
