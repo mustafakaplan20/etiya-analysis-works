@@ -32,7 +32,7 @@ def showStudentList():
 
     # print(f"Student  : {studentList}") It is also solution moreover we can use __str__ function
 
-def staticOperation():
+"""def staticOperation():
     teacher_1 = Teacher("Ali", "VELI", "CSE")
     teacher_2 = Teacher("Ayse", "FATMA", "EE")
 
@@ -46,7 +46,7 @@ def staticOperation():
     addStudent(student_2)
 
     showTeacherList()
-    showStudentList()
+    showStudentList()"""
 
 def dynamicOperation():
     while True:
